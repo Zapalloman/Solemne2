@@ -5,6 +5,8 @@ from os import system
 system("cls")
 import pandas as pd
 import matplotlib.pyplot as plt
+import nunpy as np
+
 
 
 
@@ -153,7 +155,7 @@ class AnalizadorDatos:
             input("[>] Presione enter para continuar...")  
             self.menu_principal()
 
-    #ejecucion del programa
+    
     def main(self):
         self.menu_principal()
 
